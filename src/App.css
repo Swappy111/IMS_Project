@@ -1,0 +1,250 @@
+.App {
+  text-align: center;
+}
+
+
+/* -------------------------------------------------Navbar------------------------------------------------------------------- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: transparent;  
+  /* color: #000000;   */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.navbar-logo{
+  justify-content: center;
+}
+.logoname{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px;
+  font-style:italic;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-shadow:2px 1px 0 white;
+  color: rgb(21, 21, 21);
+}
+.navbar-buttons{
+   display: flex;
+}
+.btn-Regis{
+  padding: 20px 40px;
+  margin: 0 1px;
+  margin-top: 0;
+  background-color: #070707; /* Set button background color */
+  color: #fff; /* Set button text color */
+  border: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navbar-right{
+  justify-content: right;
+}
+.btn-login{
+  padding: 20px 40px;
+  margin: 0 1px;
+  margin-top: 0;
+  /* margin-right: 1px; */
+  background-color: #070707; /* Set button background color */
+  color: #fff; /* Set button text color */
+  border: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  justify-content: end;
+}
+
+ 
+
+/* ============================================================================================================================= */
+/* -------------------------------------------------HOME PAGE------------------------------------------------------------------- */
+.home-container{
+  height: 100vh;
+}
+.About-container{
+  height: 100vh;
+}
+.title{
+  position: relative;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(20, 17, 17);
+  font-size: 90px;
+  margin-top: 200px;
+  /* border-radius: 5px;
+  border-width: 10px;
+  border-color: black; */
+}
+
+
+.background-video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;  
+}
+ 
+.tex-container{
+  margin-top: 15%;
+}
+.text{
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 112px;
+  color:antiquewhite;
+  text-shadow:2px 2px 0 rgb(0, 0, 0);
+  
+}
+
+.button{
+  padding: 10px 40px;
+  margin: 0;
+  margin-top: 0;
+  background-color: #070707; /* Set button background color */
+  color: #fff; /* Set button text color */
+  border: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-danger{
+  padding-right: 0px;
+  justify-content: end;
+}
+/* ================================================================================================================================ */
+.row{
+  position: relative;
+  z-index: 2;
+}
+
+#regis{
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.form{
+  background-color: #070707;
+  padding: 10px;
+  border-radius: 20px;
+}
+.from ,input{
+  background-color: #f3ebeb;
+  padding: 10px;
+  border-color: rgb(0, 109, 205);
+  border-radius: 20px;
+}
+/* ---------------------------------------------------------------REGISTER-PAGE------------------------------------------------------- */
+.container-register{
+  background-image: url('https://img.freepik.com/free-photo/pieces-blue-stationery_23-2148169528.jpg?size=626&ext=jpg');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.registerationheading{
+  text-shadow: 1px 1px 1px white;
+}
+.form-inputs{
+  font-size: 40px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+.error{
+  color: red;
+  font-size:x-small;
+}
+
+/* ---------------------------------------------------------------LOGIN-PAGE------------------------------------------------------- */
+.container-login{
+  background-image: url('https://static.vecteezy.com/system/resources/previews/004/941/847/original/cosmetic-background-for-product-branding-and-packaging-presentation-geometry-form-circle-molding-on-podium-stage-with-shadow-of-leaf-background-design-eps10-vector.jpg');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.login-heading{
+  font-size: 60px;
+  font-style: oblique;
+  color: black;
+  text-shadow: 2px 2px 30px white;
+}
+
+/* ---------------------------------------------------------------DASHBOARD-PAGE------------------------------------------------------- */
+
+.dashboard-navbar{
+  background-color: darkslateblue;
+  justify-content: right;
+
+}
+.logout{
+  padding: 10px 40px;
+  margin: 0;
+  margin-top: 0;
+  background-color: #a45151; /* Set button background color */
+  color: #fff; /* Set button text color */
+  border: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+ 
+.logout-button{
+  padding: 50px;
+  position:relative;
+  justify-content: right;
+}
+.dashboard-image{
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.quize-card{
+  transition: 1s;
+  color: cadetblue;
+  /* background-color: transparent !important;  */
+}
+
+.quize-card:hover{
+  transform: translateY(-10px);
+  /* transform: rotateX(360deg); */
+  /* transform: rotateY(360deg); */
+}
+
+ 
+.score-circle {
+  width: 150px; /* Set the width and height to create a circular shape */
+  height: 150px;
+  background-color: #eff800; /* Set the background color */
+  color: #0b0b0b; /* Set the text color */
+  border-radius: 50%; /* Make it a perfect circle by setting border-radius to 50% */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px; /* Adjust the font size as needed */
+  font-weight: bold; /* Optionally set font weight for emphasis */
+}
